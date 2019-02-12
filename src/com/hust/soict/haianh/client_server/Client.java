@@ -14,7 +14,7 @@ public class Client {
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 
-        // Consume and display welcome message from the server
+        //Use scanner to get numbers from user
         System.out.println(in.readLine());
 
         Scanner scanner = new Scanner(System.in);
